@@ -1,0 +1,29 @@
+# AI股票分析系统环境配置
+# 由系统自动生成和管理
+
+# ========== DeepSeek API配置 ==========
+DEEPSEEK_API_KEY="sk-d29cf87210b640e0be60746625747546"
+DEEPSEEK_BASE_URL="https://api.deepseek.com/v1"
+
+# ========== Tushare数据接口（可选）==========
+TUSHARE_TOKEN="3e2b2af2f11d95bfa66d2a2af3a39f09943c3c0b23c3b863b168daaa"
+
+# ========== MiniQMT量化交易配置（可选）==========
+MINIQMT_ENABLED="false"
+MINIQMT_ACCOUNT_ID=""
+MINIQMT_HOST="127.0.0.1"
+MINIQMT_PORT="58610"
+
+# ========== 邮件通知配置（可选）==========
+EMAIL_ENABLED="false"
+SMTP_SERVER="smtp.163.com"
+SMTP_PORT="465"
+EMAIL_FROM="1769907734@qq.com"
+EMAIL_PASSWORD="bwngfdlewjjfcbjg"
+EMAIL_TO="1769907734@qq.com"
+
+# ========== Webhook通知配置（可选）==========
+WEBHOOK_ENABLED="false"
+WEBHOOK_TYPE="dingtalk"
+WEBHOOK_URL=""
+WEBHOOK_KEYWORD=""
